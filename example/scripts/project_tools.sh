@@ -67,6 +67,8 @@ function add_permission_label() {
     python add-line.py -i ../macos/Runner/Release.entitlements -s '</dict>' -t '       <true/>'
     python add-line.py -i ../macos/Runner/Release.entitlements -s '</dict>' -t '       <key>com.apple.security.network.client</key>'
     python add-line.py -i ../macos/Runner/Release.entitlements -s '</dict>' -t '       <true/>'
+    python add-line.py -i ../macos/Podfile -s "platform :osx, '10.13'" -t "platform :osx, '10.14'" -r
+
 }
 
 if [ "$CMD" == "create" ];

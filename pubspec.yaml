@@ -20,6 +20,6 @@ dependencies:
   uuid: ^3.0.2
 
 
-dev_dependencies:
+beta_dependencies:
   lints: ^2.0.1
   test: ^1.6.7
