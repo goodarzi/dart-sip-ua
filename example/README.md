@@ -4,9 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-Make sure your flutter is using the `dev` channel.
+Make sure your flutter is using the `beta` channel.
 
-- `flutter channel dev`
+- `cd examples`
+- `flutter channel beta`
+- `flutter create --project-name dartsip --org com.github.cloudwebrtc .`
+## Or
 - `./scripts/project_tools.sh create`
 - `flutter run`
 
